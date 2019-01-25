@@ -13,3 +13,4 @@ print(str(data[0]))
 pd.Series(data).to_json(orient='values')
 data.tostring()
 print(data[0])
+print(len(str_data)) #752
